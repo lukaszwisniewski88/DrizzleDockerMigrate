@@ -1,4 +1,4 @@
-FROM docker.io/oven/bun:1-debian AS base
+FROM docker.io/oven/bun:1-slim AS base
 WORKDIR /app
 
 FROM base AS deps
